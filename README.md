@@ -6,7 +6,7 @@ I chose the data on national flags and their colors because flags are powerful s
 
 *The Research Question*
 
-How have historical events and cultural shifts influenced the color distribution in national flags across different regions and time periods from 1874 to 2024 and are there meaningful conclusions to be derived by visualizing these changes?
+How has the color distribution on national flags across different regions and time periods from 1874 to 2024 changed and are there meaningful conclusions as to why, how, and the underlying meaning to be derived from visualizing these changes?
 
 *Building a dataset*
 
@@ -19,7 +19,7 @@ To scrape the data, I used the following Python libraries: `requests` for making
   
 *Problems with my dataset*
 
-Since my dataset source is a private user-run website that itself doesn't cite many sources, even the accuracy of the data can be put into question. The website isn't officially curated or authoritative. It's contents might contain inaccuracies and should be interpreted with caution.
+Since my dataset source is a private user-run website that itself doesn't cite many sources, the accuracy of the data can be put into question. The website isn't officially curated or authoritative. It's contents might contain inaccuracies and should be interpreted with caution.
 
 Additionally, the way I sorted the data to fit my agenda poses additional problems. Since my goal is to visualize changes in color on national flags and the goal of the original website is to display historical flags and sort them by regions, the websites layout wasn't setup with my goal in mind which lead to some unintended consequences. The regions the flags are sorted in change over time, depending on how relevant the region was at the time regarding flag usage. For example, Africa (which is actually only sub-saharan Africa) as a region only gets introduced in 1897, whereas before Africa and the Middle East where put in the same category (from 1897 and onwards, only North Africa and the Middle East are in the same category). Obviously, trying to visualoze color changes by region makes this difficult. Since this only affected Africa, Central Asia and the Carribean though, I decided it would be fine and wouldn't affect make my findings to a noticable degree.
 
