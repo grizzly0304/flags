@@ -15,7 +15,7 @@ To gather this data, I scraped information from the website https://flaglog.com/
 To scrape the data, I used the following Python libraries: `requests` for making HTTP requests, `BeautifulSoup` for parsing HTML content, and `PIL` for image processing. The process involved sending requests to the website for each year from 1874 to 2024, extracting relevant information about each flag, and analyzing the colors used in each flag image. The scraping code identified and downloaded flag images, categorized the colors, and calculated their proportions. Here is a brief overview of the scraping process:
 1. Downloading Images: For each flag, the script downloaded the image using its URL. This involved sending an HTTP GET request and handling the response to retrieve the image content.
 2. Color Analysis: The downloaded images were analyzed to determine the color composition. The script converted the image to RGB format and categorized each pixel into predefined color categories. It then calculated the percentage of each color in the image.
-3. 3. Data Storage: The extracted information, including image URL, region, state name, flag name, additional info, year added, year removed, and color percentages, was stored in a CSV file. This structured format makes it easy to analyze and visualize the data.
+3. Data Storage: The extracted information, including image URL, region, state name, flag name, additional info, year added, year removed, and color percentages, was stored in a CSV file. This structured format makes it easy to analyze and visualize the data.
   
 *Problems with my dataset*
 
